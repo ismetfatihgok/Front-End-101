@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #CD5C5C;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: #45B39D;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    color: #D4AC0D;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.navBar{
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navBar li{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+}
+
+.productList li::before {
+    content:"\00AC" ;
+    color: red;
+}
+
+#guitars, drums, keyboards, strings {
+    padding: 10px;
+    margin: 5px;
+}
+
+#guitars li {
+    padding: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    border: 3px solid;
+    border-radius: 20px;
+}
+
+#drums li {
+    padding: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    border: 3px solid;
+    border-radius: 20px;    
+}
+
+#keyboards li {
+    padding: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    border: 3px solid;
+    border-radius: 20px;
+}
+
+#strings li {
+    padding: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    border: 3px solid;
+    border-radius: 20px;
+}
